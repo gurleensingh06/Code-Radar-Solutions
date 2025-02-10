@@ -5,5 +5,5 @@ int main(){
     scanf("%f",&a);
     pi=3.14;
     b=pi*(a*a);
-    printf("Area: %f",b);
+    printf("Area: %.2f",b);
 }
