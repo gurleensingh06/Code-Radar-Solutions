@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-int main(){
-    char a[5];
-    scanf("%d",&a);
-    if(65>=a<=90){
-        printf("Uppercase");
-    }
-    else if(97>=a<=122){
+int main() {
+ char a;
+    scanf("%c",&a);
+    if(a<=122 &&a>=97){
         printf("Lowercase");
+    }
+    else if(a>=65 && a<=90) {
+        printf("Uppercase");
     }
     else{
         printf("Not an alphabet");
